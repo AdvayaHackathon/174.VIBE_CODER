@@ -11,6 +11,7 @@ export default function Index(){
                 alignItems:"center",
             }}
             >
+                <Text className="font-bold text-lg my-10">welcome to Edusetu ! </Text>
                 <Link href="/signin">Signin</Link>
                 <Link href="/signup">Sign up</Link>
                 <Link href="/properties/1">Property</Link>
