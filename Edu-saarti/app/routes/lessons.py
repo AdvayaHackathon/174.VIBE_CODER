@@ -1,6 +1,6 @@
-# ~/Edu-saarti/app/routes/lessons.py
+
 from fastapi import APIRouter, HTTPException
-import json  # Ensure this is included
+import json  
 import os
 from app.services.translator import translate_text
 

@@ -1,7 +1,7 @@
-# ~/Edu-saarti/app/services/translator.py
+
 import os
 import requests
-import json  # Add this if missing
+import json  
 from dotenv import load_dotenv
 from fastapi import HTTPException
 

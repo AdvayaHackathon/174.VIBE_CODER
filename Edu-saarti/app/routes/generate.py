@@ -6,19 +6,19 @@ import os
 
 router = APIRouter()
 
-# Path to the JSON file
+
 LESSONS_FILE = os.path.join(os.path.dirname(__file__), '..', 'data', 'lessons.json')
 
 class GenerateRequest(BaseModel):
     grade: int
     subject: str
     topic: str
-    language: str = "kn"  # Default to Kannada
+    language: str = "kn" 
 
 @router.post("/generate")
 async def generate_content(request: GenerateRequest):
     try:
-        # Load local lesson data
+        
         with open(LESSONS_FILE, 'r', encoding='utf-8') as f:
             all_lessons = json.load(f)
 
