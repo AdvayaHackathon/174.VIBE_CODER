@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 from fastapi import APIRouter, HTTPException
 import json  
@@ -42,3 +43,12 @@ async def generate(grade: int, subject: str, topic: str, language: str = "kn"):
         return {"status": "error", "message": "Topic not found"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+=======
+from fastapi import APIRouter
+
+router = APIRouter()  # This is mandatory!
+
+@router.get("/lessons")
+async def get_lessons():
+    return {"message": "List of lessons"}
+>>>>>>> a2c5190c16f33e32ecca4803a8b16f90aef5141d
