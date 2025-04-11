@@ -1,0 +1,34 @@
+[
+  {
+    "grade": 5,
+    "subject": "Math",
+    "topic": "Addition",
+    "lesson": "Addition combines numbers to find a total. For example, 2 + 3 = 5.",
+    "quiz": {
+      "mcqs": [
+        {
+          "question": "What is 2 + 3?",
+          "options": ["4", "5", "6", "7"],
+          "correct": "5"
+        }
+      ],
+      "fitb": "2 + ___ = 5"
+    }
+  },
+  {
+    "grade": 5,
+    "subject": "EVS",
+    "topic": "Plants",
+    "lesson": "Plants make food through photosynthesis using sunlight.",
+    "quiz": {
+      "mcqs": [
+        {
+          "question": "What gas do plants take in?",
+          "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+          "correct": "Carbon Dioxide"
+        }
+      ],
+      "fitb": "Plants use ____ to make food."
+    }
+  }
+]
