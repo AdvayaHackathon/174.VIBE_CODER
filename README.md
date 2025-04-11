@@ -19,7 +19,7 @@ Welcome to the Hackathon! We're excited to have you on board and can't wait to s
 
 ## Problem Statement
 
-> **A mobile app that uses a fine-tuned lightweight language model to deliver lessons and quizzes from t...**
+> **A mobile app that uses the Sarvam AI language model to deliver lessons and quizzes**
 
 ---
 
